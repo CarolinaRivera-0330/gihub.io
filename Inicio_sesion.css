@@ -1,0 +1,97 @@
+/* Body styling */
+body {
+    background-color: #e7e5e5;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the login box */
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #1c1c1c;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    width: 320px;
+    text-align: center;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+/* Form styling */
+.login-box h2 {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 0.9em;
+    color: #b3b3b3;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #333;
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+form input::placeholder {
+    color: #b3b3b3;
+}
+
+/* Button styling */
+form button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #1DB954; /* Spotify green */
+    color: #FFFFFF;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #1ed760;
+}
+
+/* Links */
+.links {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+.links a {
+    color: #1DB954;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
